@@ -1,1 +1,77 @@
-/* Acá va tu código */
+
+body {
+    display: flex;
+    text-align: center;
+    background-image: url("cubos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 100px;
+    
+  }
+
+  #container {
+background-color: white;
+
+
+  }
+
+  p{
+    width: 45%;
+    margin: auto;
+  }
+
+.form-cipher {
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+     
+  }
+/* cuadros de texto*/
+.input-text {
+  width: 60%;
+  padding: 15px;
+  margin: auto
+}
+
+/* Botones*/
+.character {
+  border-radius: 8px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: rgba(238, 219, 52, 0.747);
+  border: none;
+  border-radius: 15px;
+}
+
+.btn:hover {background-color: #f1c32a}
+
+.btn:active {
+  background-color: #ee8c4b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.form {
+  width:70%;
+  margin:auto;
+}
+
+ 
+  
+  
+
+
+
+ 
+
+
