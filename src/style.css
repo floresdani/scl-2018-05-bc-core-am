@@ -1,81 +1,82 @@
 
 body {
-    display: flex;
-    text-align: center;
-    background-image: url("cubos.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 100px;
-    
+  display: flex;
+  text-align: center;
+  background-image: url("cubos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 100px;
   }
+
 .welcome li{
   list-style: none;
   text-align: left;
-}
-
-
-  #container {
-background-color: white;
-margin: 0 auto;
-border-radius: 15px;
-
   }
 
-  p{
-    width: 45%;
-    margin: auto;
+ #container {
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 15px;
+  }
+
+ p{
+  width: 45%;
+  margin: auto;
   }
 
 .formText {
     width: 80%;
-    padding: 19px;
+    padding: 10px;
     margin: auto;
-     
   }
 /* cuadros de texto*/
-.input-text {
-  width: 60%;
-  padding: 15px;
+#txt {
+  width:100%;
+  height:auto;
+  min-height:50px;
+  background-color: white;
+  border: thin solid rgb(240, 128, 128);
+  margin-bottom: 2%;
+  border-radius: 5px;
+  }
+
+#offset {
+  width: 25%;
+  padding: 8px;
   margin: auto;
-  border-radius: 15px;
-}
+  border-radius: 5px;
+  }
 
+#inputText{
+  padding: 9% 16%;
+  border: thin solid rgb(240, 128, 128);
+  border-radius: 7px;
+  margin-bottom: 5%;
+  }
 /* Botones*/
-.character {
-  border-radius: 8px;
-}
-
-.btn{
+#btns button {
   display: inline-block;
-  padding: 5px 20px;
-  margin: 5px 15px;
-  font-size: 15px;
-  cursor: pointer;
+  padding: 2%;
+  margin: 2% 2% 6% 2%;
+  font-size: 14px;
   text-align: center;
-  text-decoration: none;
-  outline: none;
   color: rgb(0, 0, 0);
   background-color: rgba(238, 219, 52, 0.747);
-  border: none;
-  border-radius: 15px;
-}
+  border-radius: 7px;
+  margin: 2% 2% 6% 2%;
+  width: 31%;
+  }
 
 .btn:hover {background-color: #f1c32a}
 
-.btn:active {
-  background-color: #ee8c4b;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.form {
-  width:70%;
-  margin:auto;
-}
+#btn-cipher{
+  padding: 2% 5%;
+  }
 
 .num {
-  border-radius: 15px;
-}
+  border-radius: 5px;
+  width: 110px;
+  }
  
   
   

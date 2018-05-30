@@ -6,11 +6,8 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
- <!--Bienvenida e intrucciones  -->     
-
+<!--Bienvenida e intrucciones  -->     
  <section id="container">
-
 <header>
 <section class="welcome">
     <h2>Bienvenid@ a <strong>Cefrado</strong></h2>
@@ -25,40 +22,29 @@
 </ul>  
 </section>
 </header>
-
-
 <!--Solicitud de número de cáracter para posición de cifrado/descifrado -->
 <section class="formText">
-    <input type="number" class="num" placeholder= "Ingresa número">
-    
-</section>
-
+  <input type="number" id="offset" class="num" placeholder= "Ingresa número">
+  </section>
 <!-- Solicitud de mensaje para cifrar y descrifrar-->
 <section class="formText">
-        <textarea class="input-text" placeholder="Ingresa texto" required></textarea>
-        
-            </div>        
-   
-            <!-- Aquí van los botones -->
+  <textarea type="text" id="inputText" placeholder="Ingresa texto"></textarea>
+  </div>        
+<!-- Aquí van los botones -->
 <div id="btns">
-      <button class="btn" onclick="submit">Cifrar texto</button>
-      <button class="btn" onclick="submit">Descifrar texto</button>
-        </div>
-
-<div class="form-cipher">
-            <textarea class="input-text" placeholder="Texto cifrado/descifrado" required></textarea>
-              </div>
- </section>
-
+  <button id="btn-cipher" class="btn">Cifrar texto</button>
+  <button id="btn-decipher" class="btn">Descifrar texto</button>
+  </div>
+<!-- Aquí va el texto cifrado/descifrado -->       
+<section class="formText">
+<div id="txt"></div>
+  </section>      
+  </section>
   <div id="root"></div>
-
-
 <!-- Aquí va el pie de página -->
 <footer>
         ©By Romale.
-   </footer>
- 
-
+  </footer>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
