@@ -2,6 +2,7 @@
 
 ## Preámbulo
 
+
 Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una
 fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto
 con amigos y familiares.

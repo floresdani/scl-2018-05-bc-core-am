@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 <!--Bienvenida e intrucciones  -->     
-<section id="container">
-<header>
-<section class="welcome">
-    <h2>Bienvenid@ a <strong>Cefrado</strong></h2>
-    <h3>Es una herramienta que te permite cifrar y descifrar texto.</h3>
-    <h4><strong>Instrucciones</strong></h4> 
-<ul>  
-    <li>1. Ingresa el número de posiciones para cifrar o descifrar.</li>
-    <li>2. Ingresa el texto.</li> 
-    <li>3. Envíalo por mensaje a un amig@.</li>
-<br>
-    <li> <strong>Nota:</strong> No olvides enviar el número al destinatario.</li>
-</ul>  
-</section>
-</header>
+    <section id="container">
+      <header>
+        <section class="welcome">
+          <h2>Bienvenid@ a <strong>Cefrado</strong></h2>
+          <h3>Es una herramienta que te permite cifrar y descifrar texto.</h3>
+          <h4><strong>Instrucciones</strong></h4> 
+          <ul>  
+            <li>1. Ingresa el número de posiciones para cifrar o descifrar.</li>
+            <li>2. Ingresa el texto.</li> 
+            <li>3. Envíalo por mensaje a un amig@.</li>
+            <br>
+            <li> <strong>Nota:</strong> No olvides enviar el número al destinatario.</li>
+          </ul>  
+        </section>
+      </header>
 <!--Solicitud de número de cáracter para posición de cifrado/descifrado -->
-<section class="formText">
-  <input type="number" id="offset" class="num" placeholder= "Ingresa número">
-</section>
+    <section class="formText">
+      <input type="number" id="offset" class="num" placeholder= "Ingresa número">
+    </section>
 <!-- Solicitud de mensaje para cifrar y descrifrar-->
 <section class="formText">
   <textarea type="text" id="inputText" placeholder="Ingresa texto"></textarea>
@@ -39,11 +39,13 @@
 <div id="txt"></div>
 </section>      
 </section>
+<footer>
+  ©By Romale.
+    </footer>
+</section>
 <div id="root"></div>
 <!-- Aquí va el pie de página -->
-<footer>
-        ©By Romale.
-</footer>
+   
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>

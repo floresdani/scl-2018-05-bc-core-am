@@ -1,18 +1,29 @@
 window.cipher = {
-  encode: (offset, string) => {
-    /* Acá va tu código */
-  let cipherText = ""; //string vacio que voy a recibir
-  let i = 0; //indice es cero
-  for(i = 0; i < string.length; i++){ //que inicie en el indice con valor cero, que se detenga recorriendo la longitud del string e incremente en 1 al itinerar.
-    let letterEncode = ((string.charCodeAt(i) - 65 + parseInt(offset)) % 26)+ 65;
-    cipherText += String.fromCharCode(letterEncode).toLowerCase();
-  } 
-    document.getElementById("inputText").innerHTML = cipherText;
-  },
+  encode: (inputText, offset ) => {
+  //string que voy a recibir  
+    let cipherText = ''; 
+  //Recorrido de caracteres
+    for(let i = 0; i < inputText.length; i++){ 
+      if ( 65 <= inputText.charCodeAt(i) && inputText.charCodeAt(i) <= 90 ){
+        let letterEncode = ((inputText.charCodeAt(i) - 65 + parseInt(offset)) % 26)+ 65;
+        cipherText += String.fromCharCode(letterEncode);
+      }else { 
+        cipherText += inputText.charAt(i)};
+    }
+      return cipherText;
+},
 
-  decode: (offset, string ) => {
-    /* Acá va tu código */
-  }
-  
-
-  }
+  decode: (inputText, offset) => {
+    //string que voy a recibir
+    let decipherText = '';
+    //Recorrido de caracteres
+    for(let i = 0; i < inputText.length; i++){
+      if ( 65 <= inputText.charCodeAt(i) && inputText.charCodeAt(i) <= 90 ){
+        let letterDecode = ((inputText.charCodeAt(i) + 65 - parseInt(offset)) % 26)+ 65;
+        decipherText += String.fromCharCode(letterDecode);
+      }else { 
+        decipherText += inputText.charAt(i)};
+      }
+      return decipherText;
+    }
+}
