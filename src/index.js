@@ -8,13 +8,13 @@ window.onload = () => {
     document.getElementById("txt").innerHTML = window.cipher.encode(encodeText, position);
   });
 // almacenando valor del texto a decodificar 
-const btnDecipher = document.getElementById('btn-decipher');
-btnDecipher.addEventListener('click', () => {
-  let decodeText = document.getElementById('inputText').value;
-  let position = document.getElementById('offset').value;
-  window.cipher.decode(decodeText, position);
-  document.getElementById("txt").innerHTML = window.cipher.decode(decodeText, position);
-});
+  const btnDecipher = document.getElementById('btn-decipher');
+  btnDecipher.addEventListener('click', () => {
+    let decodeText = document.getElementById('inputText').value;
+    let position = document.getElementById('offset').value;
+    window.cipher.decode(decodeText, position);
+    document.getElementById("txt").innerHTML = window.cipher.decode(decodeText, position);
+  });
 } 
 
    
