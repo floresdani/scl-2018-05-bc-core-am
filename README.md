@@ -30,9 +30,9 @@ Antes de comenzar a usar **Cefrado**, debemos realizar la instalación y ejecuci
 La aplicación toma una cadena de texto ingresada por el usuario, y a partir de un número elegido (también por el usuario) desplazará el texto el mismo número de posiciones a la derecha, ocultando así el mensaje de modo que no pueda ser descifrado si no conoce el número para cifrar/decifrar.
 
 Ejemplo: 
-        *Número: 1
-        *Texto a cifrar: HOLA, MUNDO!
-        *Texto cifrado: IPMB, NVOEP!
+  * Número: 1
+  * Texto a cifrar: HOLA, MUNDO!
+  * Texto cifrado: IPMB, NVOEP!
 
 En el ejemplo anterior, el texto cifrado se desplazó un espacio a la derecha ya que el usuario ingreso el número 1. Lo que significa un lugar de desplazamiento. 
 Si el usuario ingresara el número 10, el método de cifrado/descifrado se hubiera desplazado 10 lugares a la derecha.
