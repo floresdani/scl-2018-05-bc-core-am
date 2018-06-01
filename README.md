@@ -1,12 +1,12 @@
 # Introducción
 
-Bienvenido a "Cefrado", una aplicación de cifrado y descifrado de texto, su nombre se debe a que utiliza el método de Cifrado César, que es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
+Bienvenido a **"Cefrado"**, una aplicación de cifrado y descifrado de texto, su nombre se debe a que utiliza el método de **Cifrado César**, que es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
 
 Hemos creado esta aplicación para poder enviar mensajes entre tus amig@s y que otras personas no puedan saber qué significado tiene, puedes organizar eventos y/o cumpleaños sorpresa a tus seres queridos y ellos no podrán enterarse hasta el gran día de celebración. 
 
 Su diseño es simple, para poder ver desde cualquier dispositivo y sin tener que cambiar de página puedas obtener textos cifrados y/o descifrados.
 
-Antes de comenzar a usar Cefrado, debemos realizar la instalación y ejecución de la aplicación, como se explica a continuación.
+Antes de comenzar a usar **Cefrado**, debemos realizar la instalación y ejecución de la aplicación, como se explica a continuación.
 
 ## Instrucciones:
  
@@ -21,11 +21,11 @@ Antes de comenzar a usar Cefrado, debemos realizar la instalación y ejecución 
 
   * Descomprime el archivo scl-2018-05-bc-core-am-master.zip usando tu aplicacion de descompresion preferida.
   * Una vez descomprimido, dentro de la carpeta Docs, ejecuta el archivo index.html.
-  * Se redireccionará a un enlace web de tu navegador predeterminado para que puedas comenzar a utilizar Cefrado.
+  * Se redireccionará a un enlace web de tu navegador predeterminado para que puedas comenzar a utilizar **Cefrado**.
 
 ## Cómo funciona Cefrado
 
-Cifrado es una aplicación que te permite cifrar y decifrar mensajes de texto. 
+**Cefrado** es una aplicación que te permite cifrar y decifrar mensajes de texto. 
 La aplicación toma una cadena de texto ingresada por el usuario, y a partir de un número elegido (también por el usuario) desplazará el texto el mismo número de posiciones a la derecha, ocultando así el mensaje de modo que no pueda ser descifrado si no conoce el número para cifrar/decifrar.
 
 Ejemplo: 
