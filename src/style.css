@@ -13,13 +13,13 @@ body {
   text-align: left;
   }
 
- #container {
+#container {
   background-color: white;
   margin: 0 auto;
   border-radius: 15px;
   }
 
- p{
+p{
   width: 45%;
   margin: auto;
   }
@@ -32,8 +32,7 @@ body {
 /* cuadros de texto*/
 #txt {
   width:100%;
-  height:auto;
-  min-height:50px;
+  height:80px;
   background-color: white;
   border: thin solid rgb(240, 128, 128);
   margin-bottom: 2%;
@@ -48,10 +47,13 @@ body {
   }
 
 #inputText{
-  padding: 9% 16%;
+  width:100%;
+  height:auto;
+  min-height:50px;
+  background-color: white;
   border: thin solid rgb(240, 128, 128);
-  border-radius: 7px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  border-radius: 5px;
   }
 /* Botones*/
 #btns button {
