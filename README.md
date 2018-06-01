@@ -13,16 +13,16 @@ Antes de comenzar a usar **Cefrado**, debemos realizar la instalación y ejecuci
  
 #### Descarga de aplicación
 
-  * Accede al siguiente [link](https://github.com/floresdani/scl-2018-05-bc-core-am)
-  * Descarga el repositorio haciendo click en el boton verde llamado "clone or download" a la derecha del mismo.
-  * Especifica el directorio para que lo puedas instalar en tu dispositivo personal.
-  * Descargarás un archivo scl-2018-05-bc-core-am-master.zip.
-
+  1. Accede al siguiente [link](https://github.com/floresdani/scl-2018-05-bc-core-am)
+  2. Descarga el repositorio haciendo click en el boton verde llamado "clone or download" a la derecha del mismo.
+  3. Especifica el directorio para que lo puedas instalar en tu dispositivo personal.
+  4. Descargarás un archivo `scl-2018-05-bc-core-am-master.zip`
+  
 #### Instala y ejecuta la aplicación
 
-  * Descomprime el archivo scl-2018-05-bc-core-am-master.zip usando tu aplicacion de descompresion preferida.
-  * Una vez descomprimido, abre la carpeta docs y ejecuta el archivo index.html.
-  * Se redireccionará a un enlace web de tu navegador predeterminado para que puedas comenzar a utilizar **Cefrado**.
+  1. Descomprime el archivo scl-2018-05-bc-core-am-master.zip usando tu aplicacion de descompresion preferida.
+  2. Una vez descomprimido, abre la carpeta docs y ejecuta el archivo index.html.
+  3. Se redireccionará a un enlace web de tu navegador predeterminado para que puedas comenzar a utilizar **Cefrado**.
 
 ## Cómo funciona Cefrado
 

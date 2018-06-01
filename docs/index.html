@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel='stylesheet' href='style.css' />
   </head>
   <body>
 <!--Bienvenida e intrucciones  -->     
-    <section id="container">
+    <section id='container'>
       <header>
-        <section class="welcome">
+        <div class='welcome'>
           <h2>Bienvenid@ a <strong>Cefrado</strong></h2>
           <h3>Es una herramienta que te permite cifrar y descifrar texto.</h3>
           <h4><strong>Instrucciones</strong></h4> 
           <ul>  
             <li>1. Ingresa el número de posiciones para cifrar o descifrar.</li>
-            <li>2. Ingresa el texto.</li> 
+            <li>2. Ingresa el texto, solo en mayúsculas.</li> 
             <li>3. Envíalo por mensaje a un amig@.</li>
             <br>
             <li> <strong>Nota:</strong> No olvides enviar el número al destinatario.</li>
           </ul>  
-        </section>
+        </div>
       </header>
-<!--Solicitud de número de cáracter para posición de cifrado/descifrado -->
-    <section class="formText">
-      <input type="number" id="offset" class="num" placeholder= "Ingresa número">
-    </section>
+<!--Solicitud de número de caracter para posición de cifrado/descifrado -->
+    <div class='formText'>
+      <input type='number' id='offset' class='num' placeholder= 'Ingresa número'>
+    </div>
 <!-- Solicitud de mensaje para cifrar y descrifrar-->
-<section class="formText">
-  <textarea type="text" id="inputText" placeholder="Ingresa texto"></textarea>
+    <div class='formText'>
+      <textarea type='text' id='inputText' placeholder='Ingresa texto'></textarea>
 <!-- Aquí van los botones -->
-<div id="btns">
-  <button id="btn-cipher" class="btn">Cifrar texto</button>
-  <button id="btn-decipher" class="btn">Descifrar texto</button>
-  </div>
+      <div id='btns'>
+        <button id='btn-cipher' class='btn'>Cifrar texto</button>
+        <button id='btn-decipher' class='btn'>Descifrar texto</button>
+      </div>
 <!-- Aquí va el texto cifrado/descifrado -->       
-<section class="formText">
-<div id="txt"></div>
-</section>      
-</section>
-<footer>
+      <div class='formText'>
+        <div id='txt'></div>
+      </div>      
+    </div>
+    <footer>
   ©By Romale.
     </footer>
-</section>
-<div id="root"></div>
+    </section>
+    <div id='root'></div>
 <!-- Aquí va el pie de página -->
-   
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
-</body>
+    <script src='cipher.js'></script>
+    <script src='index.js'></script>
+  </body>
 </html>
 

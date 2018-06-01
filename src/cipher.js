@@ -14,7 +14,7 @@ window.cipher = {
 },
 
   decode: (inputText, offset) => {
-    //string que voy a recibir
+  //string que voy a recibir
     let decipherText = '';
     //Recorrido de caracteres
     for(let i = 0; i < inputText.length; i++){

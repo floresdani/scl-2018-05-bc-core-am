@@ -2,7 +2,7 @@
 body {
   display: flex;
   text-align: center;
-  background-image: url("cubos.png");
+  background-image: url('cubos.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 100px;
